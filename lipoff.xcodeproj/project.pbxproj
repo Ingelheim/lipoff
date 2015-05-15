@@ -14,6 +14,9 @@
 		8A615E4B1A37135300BEB248 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A615E4A1A37135300BEB248 /* Images.xcassets */; };
 		8A615E4E1A37135300BEB248 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A615E4C1A37135300BEB248 /* LaunchScreen.xib */; };
 		8A615E5A1A37135300BEB248 /* lipoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A615E591A37135300BEB248 /* lipoffTests.swift */; };
+		8A615E641A3713C900BEB248 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A615E631A3713C900BEB248 /* File.swift */; };
+		8AD3673B1A378ECA00693E9A /* CameraRecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3673A1A378ECA00693E9A /* CameraRecordController.swift */; };
+		8AE952841A386AD7007C3112 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE952831A386AD7007C3112 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		8A615E531A37135300BEB248 /* lipoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lipoffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A615E581A37135300BEB248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A615E591A37135300BEB248 /* lipoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lipoffTests.swift; sourceTree = "<group>"; };
+		8A615E631A3713C900BEB248 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		8AD3673A1A378ECA00693E9A /* CameraRecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRecordController.swift; sourceTree = "<group>"; };
+		8AE952831A386AD7007C3112 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE952841A386AD7007C3112 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,7 @@
 		8A615E321A37135300BEB248 = {
 			isa = PBXGroup;
 			children = (
+				8AE952831A386AD7007C3112 /* QuartzCore.framework */,
 				8A615E3D1A37135300BEB248 /* lipoff */,
 				8A615E561A37135300BEB248 /* lipoffTests */,
 				8A615E3C1A37135300BEB248 /* Products */,
@@ -86,6 +94,8 @@
 				8A615E4C1A37135300BEB248 /* LaunchScreen.xib */,
 				8A615E421A37135300BEB248 /* lipoff.xcdatamodeld */,
 				8A615E3E1A37135300BEB248 /* Supporting Files */,
+				8A615E631A3713C900BEB248 /* File.swift */,
+				8AD3673A1A378ECA00693E9A /* CameraRecordController.swift */,
 			);
 			path = lipoff;
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A615E461A37135300BEB248 /* ViewController.swift in Sources */,
+				8A615E641A3713C900BEB248 /* File.swift in Sources */,
+				8AD3673B1A378ECA00693E9A /* CameraRecordController.swift in Sources */,
 				8A615E411A37135300BEB248 /* AppDelegate.swift in Sources */,
 				8A615E441A37135300BEB248 /* lipoff.xcdatamodeld in Sources */,
 			);
@@ -409,6 +421,7 @@
 				8A615E5F1A37135300BEB248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A615E601A37135300BEB248 /* Build configuration list for PBXNativeTarget "lipoffTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				8A615E621A37135300BEB248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
